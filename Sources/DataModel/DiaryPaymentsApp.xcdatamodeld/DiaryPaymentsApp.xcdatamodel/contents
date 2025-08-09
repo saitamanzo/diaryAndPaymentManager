@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="1" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Diary" representedClassName="Diary" syncable="YES">
+        <attribute name="id" optional="NO" attributeType="UUID"/>
+        <attribute name="date" optional="NO" attributeType="Date"/>
+        <attribute name="title" optional="NO" attributeType="String"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="NO" attributeType="Integer 16" defaultValueString="3"/>
+        <attribute name="tags" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer"/>
+        <attribute name="placeName" optional="YES" attributeType="String"/>
+        <attribute name="imagePath" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Payment" representedClassName="Payment" syncable="YES">
+        <attribute name="id" optional="NO" attributeType="UUID"/>
+        <attribute name="date" optional="NO" attributeType="Date"/>
+        <attribute name="amount" optional="NO" attributeType="Decimal"/>
+        <attribute name="category" optional="NO" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Diary" positionX="160" positionY="160" width="128" height="128"/>
+        <element name="Payment" positionX="400" positionY="160" width="128" height="128"/>
+    </elements>
+</model>
+

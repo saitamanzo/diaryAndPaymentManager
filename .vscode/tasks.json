@@ -1,0 +1,149 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Xcode Build DiaryPaymentsApp",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Xcode Build DiaryPaymentsApp",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Xcode Build DiaryPaymentsApp",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Xcode Build DiaryPaymentsApp",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Xcode Build DiaryPaymentsApp",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Xcode Build DiaryPaymentsApp (修正版)",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Xcode Build DiaryPaymentsApp（PaymentDetailView修正後）",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Xcode Build DiaryPaymentsApp（PaymentDetailView重複削除後）",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Xcode Build DiaryPaymentsApp（PaymentsView.swift構文修正後）",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Xcode Build DiaryPaymentsApp（PaymentsView.swift構文修正後・EditButton追加）",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "PaymentsView.swift修正後のXcodeビルド再実行",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "PaymentsView.swiftの閉じ括弧修正後、Xcodeビルド再実行",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "PaymentsView.swiftの関数スコープ修正後、Xcodeビルド再実行",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "PaymentsView.swift修正後、Xcodeビルド再実行",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "PaymentsView.swiftのstruct閉じ括弧修正後、Xcodeビルド再実行",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "PaymentsViewデザイン改善後のXcodeビルド",
+			"type": "shell",
+			"command": "xcodebuild -project DiaryPaymentsApp.xcodeproj -scheme DiaryPaymentsApp -sdk iphonesimulator -configuration Debug build",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
